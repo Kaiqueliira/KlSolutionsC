@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KL SOLUTIONS</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- Header-->
+    <header class="header">
+        <div class="max-width">
+            <div class="logo">
+                <a href="#inicio"><span>KL</span>Solutions</a>
+            </div>
+            <ul class="menu">
+                <li><a asp-action="Index">Inicio</a></li>
+                <li><a asp-action="Servicos">Serviços</a></li>
+                <li><a asp-action="Contatos">Contato</a></li>
+                <li><a asp-action="Login">Login</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+          @RenderBody()
+        
+        <footer>
+            Por KL&copy
+        </footer>
+
+    </main>
+    <script src="~/js/script.js"></script>
+</body>
+
+</html>

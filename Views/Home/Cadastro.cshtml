@@ -1,0 +1,16 @@
+@model Usuario
+
+<section class="login">
+
+    <div class="form">
+        <form method="POST">
+            <input asp-for="Login" placeholder="LOGIN" class="nameForm">
+            <input asp-for="Senha" placeholder="SENHA"type="Password">
+            <input type="submit" value="CADASTRAR">
+        </form>
+        <a asp-action="Login">Logar</a>
+    </div>
+
+
+
+</section>
