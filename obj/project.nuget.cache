@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MFSDiaoKNDRJXa2wxLDIx2YQm27VgooHeT2X9MTBRRTWeNMC4SNpCDAVrkmAPNSknDIvxr4PrCPO2XT2acpNhw==",
+  "dgSpecHash": "0BcFAUo7GIt0jGWHpiT4NpIjHa6+Btu6eqUEnPoO+Monxxw2DNtu7pyv1UqHxxBtrBb7qNZcp1qsgkr3sDUGxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaique\\Desktop\\Projetos\\KlSolutions\\KlSolutions.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaique\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

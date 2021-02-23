@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using KlSolutions.Models;
+using KLSOLUTIONSC.Models;
 
 namespace KlSolutions.Controllers
 {
@@ -20,6 +21,7 @@ namespace KlSolutions.Controllers
 
         public IActionResult Index()
         {
+            UsuarioBD.TestarConexao();
             return View();
         }
         public IActionResult Servicos()
@@ -42,23 +44,19 @@ namespace KlSolutions.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Cadastro(Usuario user)
+        public IActionResult Login(Usuario user)
         {   
-            Usuario u = new Usuario();
-            u.Login = user.Login;
-            u.Senha = user.Senha;
-
-            Console.Write(u.Login +" "+ u.Senha);
+            if(user.Login == "admin" && user.Senha == "123"){
+                
+                return View("Index");
+            }
+            
             return View("Login");
         }
 
 
-        [HttpPost]
-        public IActionResult Login(Usuario user)
-        {
-         
-            return View();
-        }
+       
+       
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaique\\Desktop\\Projetos\\KlSolutions\\KlSolutions.csproj": {}
+    "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaique\\Desktop\\Projetos\\KlSolutions\\KlSolutions.csproj": {
+    "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaique\\Desktop\\Projetos\\KlSolutions\\KlSolutions.csproj",
+        "projectUniqueName": "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj",
         "projectName": "KlSolutions",
-        "projectPath": "C:\\Users\\Kaique\\Desktop\\Projetos\\KlSolutions\\KlSolutions.csproj",
+        "projectPath": "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj",
         "packagesPath": "C:\\Users\\Kaique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaique\\Desktop\\Projetos\\KlSolutions\\obj\\",
+        "outputPath": "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kaique\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Mysqlconnector": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
