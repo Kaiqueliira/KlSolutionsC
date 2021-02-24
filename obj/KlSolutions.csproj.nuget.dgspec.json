@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj": {}
+    "C:\\Users\\Kaique\\Desktop\\Projetos\\KLSOLUTIONSC\\KlSolutions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj": {
+    "C:\\Users\\Kaique\\Desktop\\Projetos\\KLSOLUTIONSC\\KlSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj",
+        "projectUniqueName": "C:\\Users\\Kaique\\Desktop\\Projetos\\KLSOLUTIONSC\\KlSolutions.csproj",
         "projectName": "KlSolutions",
-        "projectPath": "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj",
+        "projectPath": "C:\\Users\\Kaique\\Desktop\\Projetos\\KLSOLUTIONSC\\KlSolutions.csproj",
         "packagesPath": "C:\\Users\\Kaique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\obj\\",
+        "outputPath": "C:\\Users\\Kaique\\Desktop\\Projetos\\KLSOLUTIONSC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kaique\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
