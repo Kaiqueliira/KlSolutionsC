@@ -18,12 +18,17 @@ namespace KlSolutions.Models
             MySqlDataReader  DadosEncontrados = ComandoQuery.ExecuteReader();
 
             Usuario User = null;
+               
             if(DadosEncontrados.Read()){
-
+                 User = new Usuario();
                 User.Id = DadosEncontrados.GetInt32("Id");
+                if(!DadosEncontrados.IsDBNull(DadosEncontrados.GetOrdinal("Nome")))
                 User.Nome = DadosEncontrados.GetString("Nome");
+                 if(!DadosEncontrados.IsDBNull(DadosEncontrados.GetOrdinal("Login")))
                 User.Login = DadosEncontrados.GetString("Login");
+                 if(!DadosEncontrados.IsDBNull(DadosEncontrados.GetOrdinal("Senha")))
                 User.Senha = DadosEncontrados.GetString("Senha");
+                Console.WriteLine("LOGADO!!");
             }
             Conexao.Close();
 
