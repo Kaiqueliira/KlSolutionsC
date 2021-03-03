@@ -14397,11 +14397,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Home\\Reclamacoes.cshtml",
-      "TargetPath": "Views\\Home\\Reclamacoes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

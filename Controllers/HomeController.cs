@@ -21,7 +21,7 @@ namespace KlSolutions.Controllers
 
         public IActionResult Index()
         {
-            UsuarioBD.TestarConexao();
+            // UsuarioBD.TestarConexao();
             return View();
         }
         public IActionResult Servicos()
@@ -38,7 +38,7 @@ namespace KlSolutions.Controllers
 
             return View();
         }
-        [HttpPost]
+        /* [HttpPost]
         public IActionResult Login(Usuario user)
         {   
             if(user.Login == "admin" && user.Senha == "123"){
@@ -47,7 +47,7 @@ namespace KlSolutions.Controllers
             }
             
             return View("Login");
-        }
+        } */
 
 
        

@@ -11,7 +11,7 @@ namespace KLSOLUTIONSC.Controllers
             return View();
 
         }
-
+/* 
     [HttpPost]
     public IActionResult Login(Usuario usuario){
         UsuarioBD UsuarioBanco = new UsuarioBD();
@@ -24,7 +24,7 @@ namespace KLSOLUTIONSC.Controllers
             ViewBag.Mensagem = "Falha No login";
             return View();
         }
-    }
+    } */
     }
     
 }
