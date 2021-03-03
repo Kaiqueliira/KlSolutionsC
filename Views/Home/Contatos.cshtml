@@ -1,6 +1,9 @@
-﻿@{
+﻿@model Contato
+
+@{
     ViewData["Title"] = "Contatos";
 }
+
 
      <section class="contatos">
             <div class="max-width">
@@ -10,11 +13,11 @@
                     </div>
                     <div class="contato">
                         <div class="coluna coluna-1">
-                            <form action="" class="form-contato">
-                                <input type="text" placeholder="SEU NOME">
-                                <input type="email" placeholder="SEU EMAIL">
-                                <input type="text" placeholder="ASSUNTO">
-                                <textarea style="resize: none" name="" id="" cols="30" rows="10" placeholder="MENSAGEM"></textarea>
+                            <form method="POST" class="form-contato">
+                                <input asp-for="nome"placeholder="SEU NOME">
+                                <input asp-for="email"type="email" placeholder="SEU EMAIL">
+                                <input asp-for="assunto" placeholder="ASSUNTO">
+                                <textarea asp-for="mensagem"style="resize: none" name="" id="" cols="30" rows="10" placeholder="MENSAGEM"></textarea>
                                 <input type="submit" value="Enviar" onclick="enviado()" class="btn">
                             </form>
                         </div>
