@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\KlSolutions.csproj",
+  "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Klsolutionsc.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14389,7 +14389,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "KlSolutions",
+  "RootNamespace": "Klsolutionsc",
   "Documents": [
     {
       "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Home\\Servicos.cshtml",
@@ -14427,13 +14427,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Home\\Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Usuario\\Cadastro.cshtml",
+      "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Usuario\\Sistema.cshtml",
+      "TargetPath": "Views\\Usuario\\Sistema.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kaique\\Desktop\\KLSOLUTIONSC\\Views\\Shared\\_Layout1.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout1.cshtml",
       "FileKind": "mvc"
     },
     {

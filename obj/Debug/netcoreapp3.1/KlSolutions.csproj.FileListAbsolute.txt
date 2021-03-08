@@ -59,8 +59,6 @@ C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\KlSolutions.RazorAs
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\KlSolutions.TagHelpers.input.cache
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\KlSolutions.TagHelpers.output.cache
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\KlSolutions.RazorCoreGenerate.cache
-C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastro.cshtml.g.cs
-C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contatos.cshtml.g.cs
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Servicos.cshtml.g.cs
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -121,3 +119,9 @@ C:\Users\Kaique\Desktop\Projetos\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\staticweba
 C:\Users\Kaique\Desktop\Projetos\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\staticwebassets\KlSolutions.StaticWebAssets.xml
 C:\Users\Kaique\Desktop\Projetos\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\KlSolutions.genruntimeconfig.cache
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contatos.cshtml.g.cs
+C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Cadastro.cshtml.g.cs
+C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Sistema.cshtml.g.cs
+C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastro.cshtml.g.cs
+C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout1.cshtml.g.cs

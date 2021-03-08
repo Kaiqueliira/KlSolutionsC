@@ -1,0 +1,11 @@
+@using Microsoft.AspNetCore.Http
+
+<section class="login">
+
+ @if(Context.Session.GetInt32("IdUsuario") != null){
+     <p>Olá, @Context.Session.GetString("NomeUsuario") (<a asp-action="Logout">Sair</a>)</p>
+
+ }
+
+
+</section>

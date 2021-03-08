@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using KlSolutions.Models;
@@ -21,7 +17,7 @@ namespace KlSolutions.Controllers
 
         public IActionResult Index()
         {
-            // UsuarioBD.TestarConexao();
+            UsuarioBD.TestarConexao();
             return View();
         }
         public IActionResult Servicos()
@@ -31,25 +27,21 @@ namespace KlSolutions.Controllers
 
         public IActionResult Contatos()
         {
+
+
             return View();
         }
-        public IActionResult Cadastro()
+        [HttpPost]
+        public IActionResult Contatos(Contato contato)
         {
 
-            return View();
-        }
-        /* [HttpPost]
-        public IActionResult Login(Usuario user)
-        {   
-            if(user.Login == "admin" && user.Senha == "123"){
-                
-                return View("Index");
-            }
+            ContatoBD contatobd = new ContatoBD();
+            contatobd.Cadastrar(contato);
             
-            return View("Login");
-        } */
-
-
+            return RedirectToAction("Index");
+        }
+        
+        
        
        
 

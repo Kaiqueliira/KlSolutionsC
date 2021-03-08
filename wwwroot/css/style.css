@@ -213,7 +213,7 @@ header .menu li a:hover{
 
 .contatos{
     background-color: rgba(196, 196, 196, 0.1);
-    height: 100vh;
+    height: 100%;
     color: #000;
     transition: all 0.3s ease;
     padding: 20px;
@@ -319,6 +319,7 @@ header .menu li a:hover{
     color:crimson;
     font-weight: 600;
     padding: 15px;
+    
 }
 
 footer{
