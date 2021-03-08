@@ -1,11 +1,21 @@
+@model List<Contato>
+@using KlSolutions.Models
 @using Microsoft.AspNetCore.Http
 
-<section class="login">
+<section class="sistema">
 
  @if(Context.Session.GetInt32("IdUsuario") != null){
-     <p>Olá, @Context.Session.GetString("NomeUsuario") (<a asp-action="Logout">Sair</a>)</p>
-
+     <h1>Olá, @Context.Session.GetString("NomeUsuario") (<a asp-action="Logout">Sair</a>)</h1>
+       <h2> Você tem novas mensagens</h2>
  }
 
-
+ @foreach (Contato item in Model)
+ {
+     <div class="card-lista">
+         <h3>Nome: @item.nome</h3>
+         <h3>Email: @item.email</h3>
+         <h3>Assunto: @item.assunto</h3>
+         <p><strong>Mensagem:</strong> @item.mensagem</p>
+     </div>
+ }
 </section>

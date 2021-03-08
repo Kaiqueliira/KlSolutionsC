@@ -281,7 +281,7 @@ header .menu li a:hover{
     background-color: #fff;
     border-color: crimson;
 }
-.login{
+.login, .sistema{
     height: 100vh;
     width: 100%;
     display: flex;
@@ -320,6 +320,16 @@ header .menu li a:hover{
     font-weight: 600;
     padding: 15px;
     
+}
+.sistema{
+    display: flex;
+    flex-flow: column wrap;
+}
+.card-lista{
+    padding: 20px;
+    width: 400px;
+    margin: 10px 10px;
+
 }
 
 footer{

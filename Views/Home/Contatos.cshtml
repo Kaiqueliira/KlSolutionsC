@@ -1,9 +1,9 @@
-﻿@model Contato
+﻿@using KlSolutions.Models
+@model Contato
 
 @{
     ViewData["Title"] = "Contatos";
 }
-
 
      <section class="contatos">
             <div class="max-width">
@@ -17,7 +17,7 @@
                                 <input asp-for="nome"placeholder="SEU NOME">
                                 <input asp-for="email"type="email" placeholder="SEU EMAIL">
                                 <input asp-for="assunto" placeholder="ASSUNTO">
-                                <textarea asp-for="mensagem"style="resize: none" id="" cols="30" rows="10" placeholder="MENSAGEM"></textarea>
+                                <input asp-for="mensagem" placeholder="MENSAGEM">
                                 <input type="submit" value="Enviar" class="btn">
                             </form>
                         </div>

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using KlSolutions.Models;
-
+using System;
 
 namespace KlSolutions.Controllers
 {
@@ -17,7 +17,7 @@ namespace KlSolutions.Controllers
 
         public IActionResult Index()
         {
-            UsuarioBD.TestarConexao();
+           
             return View();
         }
         public IActionResult Servicos()
@@ -34,7 +34,7 @@ namespace KlSolutions.Controllers
         [HttpPost]
         public IActionResult Contatos(Contato contato)
         {
-
+             
             ContatoBD contatobd = new ContatoBD();
             contatobd.Cadastrar(contato);
             

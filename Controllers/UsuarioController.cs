@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using KlSolutions.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -56,13 +57,24 @@ namespace KLSOLUTIONSC.Controllers
         public IActionResult Sistema()
         {
             if (HttpContext.Session.GetInt32("IdUsuario") == null)
-            {
+            {   
 
                 return RedirectToAction("Login", "Usuario");
+
             }
 
+            ContatoBD contatobd = new ContatoBD();
+            List <Contato> lista = contatobd.Listar();
 
-            return View();
+            return View(lista);
+
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+
+            return RedirectToAction("Login", "Usuario");
 
         }
     }

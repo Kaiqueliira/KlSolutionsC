@@ -1,3 +1,4 @@
+@using Microsoft.AspNetCore.Http;
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -21,6 +22,9 @@
                 <li><a asp-action="Servicos" asp-controller="Home">Serviços</a></li>
                 <li><a asp-action="Contatos" asp-controller="Home">Contato</a></li>
                 <li><a asp-action="Login" asp-controller="Usuario">Login</a></li>
+                @if(Context.Session.GetInt32("IdUsuario") != null){
+                    <li><a asp-action="Sistema" asp-controller="Usuario">Sistema</a></li>
+                }
             </ul>
         </div>
     </header>

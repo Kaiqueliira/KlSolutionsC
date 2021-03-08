@@ -123,5 +123,3 @@ C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Co
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Cadastro.cshtml.g.cs
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Sistema.cshtml.g.cs
 C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastro.cshtml.g.cs
-C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
-C:\Users\Kaique\Desktop\KLSOLUTIONSC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout1.cshtml.g.cs
